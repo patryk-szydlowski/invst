@@ -1,0 +1,20 @@
+### IDE ###
+/.idea/
+*.iml
+/.vscode/
+
+### Expo ###
+/.expo/
+/.expo-shared/
+
+### Generated sources ###
+/node_modules/
+/build/
+/out/
+/dist/
+/target/
+/coverage/
+
+### Misc ###
+*.log
+*.error

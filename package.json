@@ -1,0 +1,20 @@
+{
+  "name": "invst",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patryk-szydlowski/invst.git"
+  },
+  "author": "Patryk Szydłowski <patrykszydlowski99@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/patryk-szydlowski/capybara/issues"
+  },
+  "homepage": "https://github.com/patryk-szydlowski/capybara#readme",
+  "scripts": {
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+  }
+}
