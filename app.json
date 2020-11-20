@@ -1,0 +1,9 @@
+{
+  "expo": {
+    "name": "invst",
+    "slug": "invst",
+    "version": "0.0.1",
+    "orientation": "portrait",
+    "entryPoint": "src/app"
+  }
+}
