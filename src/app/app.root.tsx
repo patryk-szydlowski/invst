@@ -1,8 +1,12 @@
 import React from 'react'
 import { Text, View } from 'react-native'
 
+import { AppProvider } from './app.provider'
+
 export const AppRoot: React.VFC = () => (
-  <View>
-    <Text>invst</Text>
-  </View>
+  <AppProvider>
+    <View>
+      <Text>invst</Text>
+    </View>
+  </AppProvider>
 )
