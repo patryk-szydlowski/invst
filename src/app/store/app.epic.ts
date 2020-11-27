@@ -1,3 +1,5 @@
 import { combineEpics, Epic } from 'redux-observable'
 
-export const appEpic: Epic = combineEpics()
+import { categoryEpics } from 'features/category/store'
+
+export const appEpic: Epic = combineEpics(...categoryEpics)

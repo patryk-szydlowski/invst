@@ -1,5 +1,12 @@
-type AppModule = Record<string, unknown>
+import { provideCategoryModule } from 'features/category/module'
+import { CategoryModule } from 'features/category/types'
+
+type AppModule = CategoryModule
 
 export function provideAppModule(): AppModule {
-  return {}
+  const categoryModule = provideCategoryModule()
+
+  return {
+    ...categoryModule,
+  }
 }
